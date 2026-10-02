@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace OrderSystem.Domain.Enums
 {
-    internal class OrderStatus
+    public enum OrderStatus
     {
+        NewOrder,
+        Registered,
+        Granted,
+        Shipped,
+        Invoiced,
+        Cancelled
     }
 }
